@@ -1,0 +1,23 @@
+{
+  "name": "io.github.ykysnk.world-switch",
+  "rootNamespace": "io.github.ykysnk.WorldSwitch",
+  "references": [
+    "VRC.SDK3",
+    "VRC.SDKBase",
+    "UdonSharp.Runtime",
+    "io.github.ykysnk.utils",
+    "io.github.ykysnk.world-basic.udon",
+    "io.github.ykysnk.cheat-client-protector",
+    "red.sim.LightVolumesUdon",
+    "FukuroUdon"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

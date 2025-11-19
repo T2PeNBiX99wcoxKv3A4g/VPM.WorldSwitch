@@ -1,0 +1,22 @@
+{
+  "name": "io.github.ykysnk.world-switch.Editor",
+  "rootNamespace": "io.github.ykysnk.WorldSwitch",
+  "references": [
+    "VRC.SDK3",
+    "VRC.SDK3.Editor",
+    "VRC.SDKBase",
+    "VRC.SDKBase.Editor",
+    "io.github.ykysnk.world-switch"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
