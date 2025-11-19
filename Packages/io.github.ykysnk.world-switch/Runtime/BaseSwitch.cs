@@ -73,12 +73,13 @@ namespace io.github.ykysnk.WorldSwitch
 
         protected override void InteractAntiCheat() => ToggleMode(Mode + 1);
 
-        public override void OnPlayerRestored(VRCPlayerApi player) => Load(player);
-        public override void OnPlayerLeft(VRCPlayerApi player) => Save(player);
+        public override void OnPlayerRestored([NotNull] VRCPlayerApi player) => Load(player);
+        public override void OnPlayerLeft([NotNull] VRCPlayerApi player) => Save(player);
 
         protected override void Load(VRCPlayerApi player)
         {
             if (!Utilities.IsValid(player)) return;
+            playerGuid.Init(player, playerGuid.RandomKey);
             if (!isLocal && !IsFirstMaster(player)) return;
 
             GetOwner();
@@ -109,11 +110,11 @@ namespace io.github.ykysnk.WorldSwitch
             OnAfterSynchronize(isOwner);
         }
 
-        protected virtual void OnLoad(VRCPlayerApi player)
+        protected virtual void OnLoad([NotNull] VRCPlayerApi player)
         {
         }
 
-        protected virtual void OnSave(VRCPlayerApi player)
+        protected virtual void OnSave([NotNull] VRCPlayerApi player)
         {
         }
 

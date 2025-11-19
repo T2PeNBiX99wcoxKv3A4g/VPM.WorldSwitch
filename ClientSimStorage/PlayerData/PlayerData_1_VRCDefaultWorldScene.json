@@ -6,5 +6,13 @@
       "type": "String",
       "value": "f08b5432-9b33-4da9-b9f8-cf3c8cbe81e2"
     }
+  },
+  "d7883085-29a4-412f-b927-311167db188d_mode": {
+    "LastUpdated": "2025-11-20T01:41:14.3492168+08:00",
+    "Key": "d7883085-29a4-412f-b927-311167db188d_mode",
+    "Value": {
+      "type": "Int",
+      "value": 1
+    }
   }
 }

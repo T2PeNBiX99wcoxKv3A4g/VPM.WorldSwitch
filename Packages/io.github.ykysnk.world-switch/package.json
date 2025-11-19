@@ -6,7 +6,7 @@
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.worlds": ">=3.9.0",
-    "io.github.ykysnk.world-basic": ">=0.1.4",
+    "io.github.ykysnk.world-basic": ">=0.1.5",
     "red.sim.lightvolumes": ">=2.1.3",
     "com.mimylab.fukuroudon": ">=3.12.0"
   },
