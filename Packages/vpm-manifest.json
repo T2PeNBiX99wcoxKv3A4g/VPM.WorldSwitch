@@ -42,7 +42,7 @@
       "dependencies": {}
     },
     "io.github.ykysnk.log-manager": {
-      "version": "0.1.6",
+      "version": "0.1.7",
       "dependencies": {
         "com.vrchat.worlds": ">=3.9.0",
         "io.github.ykysnk.cheat-client-protector": ">=0.2.0",
@@ -50,7 +50,7 @@
       }
     },
     "io.github.ykysnk.utils": {
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
         "com.vrchat.base": ">=3.9.0"
       }
@@ -63,7 +63,7 @@
       }
     },
     "io.github.ykysnk.cheat-client-protector": {
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
         "com.vrchat.worlds": ">=3.9.0",
         "io.github.ykysnk.utils.world": ">=0.0.4"
@@ -74,7 +74,7 @@
       "dependencies": {}
     },
     "io.github.ykysnk.world-basic": {
-      "version": "0.1.5",
+      "version": "0.1.6",
       "dependencies": {
         "com.vrchat.worlds": ">=3.9.0",
         "io.github.ykysnk.cheat-client-protector": ">=0.2.0",
