@@ -13,8 +13,7 @@ namespace io.github.ykysnk.WorldSwitch
         private const string TransparencyKey = "transparency";
         private const string ShaderName = "VRCPlayersOnlyMirror";
 
-        [Space] [Header("Mirror")] [SerializeField]
-        private GameObject[] mirrors;
+        [Space] [SerializeField] private GameObject[] mirrors;
 
         [Space] [Header("UI")] [SerializeField]
         private Slider transparencySlider;

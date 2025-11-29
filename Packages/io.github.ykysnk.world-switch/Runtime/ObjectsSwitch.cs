@@ -6,8 +6,7 @@ namespace io.github.ykysnk.WorldSwitch
     [AddComponentMenu("yky/World Switch/Objects Switch")]
     public class ObjectsSwitch : BaseSwitch
     {
-        [Space] [Header("Object")] [SerializeField]
-        private GameObject[] objects;
+        [Space] [SerializeField] private GameObject[] objects;
 
         protected override void OnSwitchMode()
         {

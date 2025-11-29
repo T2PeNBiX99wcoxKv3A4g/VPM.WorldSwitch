@@ -11,7 +11,7 @@ namespace io.github.ykysnk.WorldSwitch
         [Header("Layer")] [SerializeField] private LayerMask defaultCollisionLayerMask;
         [SerializeField] private LayerMask changeCollisionLayerMask;
 
-        [Header("Chair")] [SerializeField] private Collider[] chairs;
+        [Space] [SerializeField] private Collider[] chairs;
 
         [SerializeField] [HideInInspector] private int defaultCollisionLayer;
         [SerializeField] [HideInInspector] private int changeCollisionLayer;

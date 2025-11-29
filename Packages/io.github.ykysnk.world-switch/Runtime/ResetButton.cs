@@ -12,9 +12,7 @@ namespace io.github.ykysnk.WorldSwitch
     public class ResetButton : BasicUdonSharpBehaviour
     {
         [Header("Button")] [SerializeField] private bool isLocal;
-
-        [Space] [Header("Object")] [SerializeField]
-        private GameObject[] objects;
+        [Space] [SerializeField] private GameObject[] objects;
 
         private void Press()
         {
